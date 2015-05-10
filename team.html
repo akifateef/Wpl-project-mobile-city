@@ -1,0 +1,144 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<head>
+<title>Mobile City | Team</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script> 
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript" src="js/jquery.accordion.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$("#posts").accordion({ 
+			header: "div.tab", 
+			alwaysOpen: false,
+			autoheight: false
+		});
+	});
+</script>
+</head>
+<body>
+  <div class="wrap">
+	<div class="header">
+		
+		<div class="header_top">
+			<div class="logo">
+				<a href="index.php"><img src="images/logo.png" width="300px" height="150px" alt="" /></a>
+			</div>
+			  
+			  <script type="text/javascript">
+			function DropDown(el) {
+				this.dd = el;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd.on('click', function(event){
+						$(this).toggleClass('active');
+						event.stopPropagation();
+					});	
+				}
+			}
+
+			$(function() {
+
+				var dd = new DropDown( $('#dd') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-2').removeClass('active');
+				});
+
+			});
+
+		</script>
+	 <div class="clear"></div>
+  </div>
+	<div class="header_bottom">
+	     	<div class="menu">
+	     		<ul>
+			    	<li><a href="index.php">Home</a></li>
+			    	
+			    	<li class="active"><a href="team.html">Team</a></li>
+			   
+			    	<li><a href="contact.html">Contact</a></li>
+			    	<div class="clear"></div>
+     			</ul>
+	     	</div>
+	 
+	     	<div class="clear"></div>
+	     </div>	     	
+   </div>
+ <div class="main">
+    <div class="content">
+    	<div class="section group">
+							<div class="grid_1_of_3 images_1_of_3">
+					  <img src="images/ibtesam.jpg" alt="" width="300" height="300" style="border-radius: 15px;"/>
+					  <h3>Ibtesam Rauf Khan </h3>
+					  <p>
+					  SEMESTER: FIFTH<BR>
+					  </p>
+				</div>
+				<div class="grid_1_of_3 images_1_of_3">
+					  <img src="images/img-1.jpg" alt="" width="300" height="300" style="border-radius: 15px;"/>
+					  <h3>Muhammad Usama Jadi </h3>
+					  <p>
+					  SEMESTER: FIFTH<BR>
+					  </p>
+				</div>
+				<div class="grid_1_of_3 images_1_of_3">
+					   <img src="images/dani1.jpg" alt="" width="300" height="300" style="border-radius: 15px;"/>
+					  <h3>Daniyal Ghani </h3>
+					 <p>
+					  SEMESTER: FIFTH<BR>
+					  </p>
+				</div>
+
+			
+			</div>	
+			    	<div class="section group">
+				<div class="grid_1_of_3 images_1_of_3">
+					 <img src="images/umer.jpg" alt="" width="300" height="300" style="border-radius: 15px;"/>
+			<h3>Umer Waheed Kayani</h3>
+				 <p>
+					  SEMESTER: FIFTH<BR>
+					  </p>
+				</div>
+				<div class="grid_1_of_3 images_1_of_3">
+					   <img src="images/mehdi.jpg" alt="" width="300" height="300" style="border-radius: 15px;"/>
+					  <h3>Muhammad Mehdi</h3>
+					 <p>
+					  SEMESTER: FIFTH<BR>
+					  </p>
+				</div>
+			
+			</div>	
+		
+         </div> 
+    </div>
+ </div>
+   <div class="footer">
+   	 
+        <div class="copy_right">
+				<p>All rights Reseverd | Design by  <a href="team.html">IUNC TIGERS</a> </p>
+		   </div>
+    </div>
+    <script type="text/javascript">
+		$(document).ready(function() {
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+    <a href="#" id="toTop"><span id="toTopHover"> </span></a>
+</body>
+</html>
+
